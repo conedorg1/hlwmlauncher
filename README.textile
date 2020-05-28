@@ -1,0 +1,3 @@
+h1. hlwmlauncher
+
+A simple app launcher for use with the herbsluftwm tiling window manager
