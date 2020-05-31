@@ -1,3 +1,20 @@
 h1. hlwmlauncher
 
 A simple app launcher for use with the herbsluftwm tiling window manager
+
+h2. Platform support
+
+The platform is intended to be used on installation of the herbsluftwm tiling WM running on a standard Ubuntu installation.
+
+
+h2. Roadmap
+
+* Remove boilerplate demo app
+* Implement e2e tests
+* Implement unit tests
+* Implementation: Find installed programs
+* Load icons for installed applications
+* Look at the possibility of controlling the workspaces that receives applications as they are launched
+* Handle controlling of launched applications
+* Implementation: settings
+* Implementation: status tray
