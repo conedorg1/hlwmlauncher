@@ -103,14 +103,14 @@
     "name": "Conedorg1",
     "url": "https://github.com/conedorg1"
   },
-  "license": "MIT",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/conedorg1/hlwmlauncher/issues"
   },
   "keywords": [
     "hlwmlauncher",
     "launcher",
-    "tiling",
+    "tiling"
   ],
   "homepage": "https://github.com/conedorg1/hlwmlauncher",
   "jest": {
