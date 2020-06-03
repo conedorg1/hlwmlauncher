@@ -1,10 +1,10 @@
-import { ADD, UPDATE, REMOVE } from '../actions/appIcons';
+import { ADD_ICON, UPDATE_ICON, REMOVE_ICON } from '../actions/appIcons';
 
 export default function appIcons(state:any[]=[], action: any) {
   switch(action.type) {
-    case ADD:
+    case ADD_ICON:
       return state.concat({ applicationId: action.applicationId, path: action.path })
-    case UPDATE:
+    case UPDATE_ICON:
       return state.map((icon)=> {
         if(action.applicationId == icon.applicationId) {
           return { applicationId: action.applicationId, path: action.newPath }
@@ -12,7 +12,7 @@ export default function appIcons(state:any[]=[], action: any) {
           return icon;
         }
       });
-    case REMOVE:
+    case REMOVE_ICON:
       return state.filter(icon => icon.applicationId !== action.applicationId);
     default:
       return state;
