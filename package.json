@@ -2,7 +2,7 @@
   "name": "hlwmlauncher",
   "productName": "hlwmlauncher",
   "version": "0.0.1",
-  "description": "A simple app launcher for use with the herbsluftwm tiling window manager",
+  "description": "A simple app launcher for use with the herbstluftwm tiling window manager",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development webpack --config ./configs/webpack.config.renderer.dev.dll.babel.js --colors",

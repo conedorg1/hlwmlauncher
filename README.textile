@@ -1,10 +1,10 @@
 h1. hlwmlauncher
 
-A simple app launcher for use with the herbsluftwm tiling window manager
+A simple app launcher for use with the herbstluftwm tiling window manager
 
 h2. Platform support
 
-The platform is intended to be used on installation of the herbsluftwm tiling WM running on a standard Ubuntu installation.
+The platform is intended to be used on installation of the "herbstluftwm":https://herbstluftwm.org/ tiling WM running on a standard Ubuntu installation.
 
 
 h2. Roadmap
